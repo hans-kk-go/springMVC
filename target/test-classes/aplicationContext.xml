@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+    <context:component-scan base-package="com.has"/>
+    <context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
+<!--    //${}-->
+
+
+
+</beans>
+
+
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xmlns:mvc="http://www.springframework.org/schema/mvc"-->
+<!--       xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/c"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd-->
+<!--    http://www.springframework.org/schema/mvc-->
+<!--    http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd-->
+<!--    http://www.springframework.org/schema/context-->
+<!--    http://www.springframework.org/schema/context/spring-context-4.2.xsd-->
+<!--http://www.springframework.org/schema/mvc ">-->
+
+<!--&lt;!&ndash;<bean id="userDao" class="com.has.dao.Imol.UserDaoImpl"></bean>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<bean id="userService" class="com.has.service.Impl.UserServiceImpl" p:userDao-ref="userDao"/>&ndash;&gt;-->
+<!--&lt;!&ndash;<bean id="userService" class="service.Impl.UserServiceImpl">&ndash;&gt;-->
+<!--&lt;!&ndash;    <constructor-arg name="userDao" ref="userDao"></constructor-arg>&ndash;&gt;-->
+<!--&lt;!&ndash;</bean>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<bean id="userService" class="service.Impl.UserServiceImpl">&ndash;&gt;-->
+<!--&lt;!&ndash;    <property name="age" value="123"></property>&ndash;&gt;-->
+<!--&lt;!&ndash;    <property name="name" value="sdfsdf"></property>&ndash;&gt;-->
+<!--&lt;!&ndash;</bean>&ndash;&gt;-->
+<!--<context:component-scan base-package="com.has"/>-->
+
+<!--</beans>-->
